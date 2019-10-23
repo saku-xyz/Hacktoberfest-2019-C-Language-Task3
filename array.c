@@ -4,11 +4,11 @@ void  main()
 {  
     int arr[10]; 
     int i;  
-       printf("\n\nRead and Print elements of an array:\n");
+       printf("\n\nRead Elements in array: \n");
        printf("-----------------------------------------\n");	
   
-    printf("Input 10 elements in the array :\n");  
-    for(i=0; i<10; i++)  
+    printf("Input 10 Elements into array : \n");  
+    for(i=1; i<=10; i++)  
     {  
 	    printf("element - %d : ",i);
         scanf("%d", &arr[i]);  
@@ -19,5 +19,6 @@ void  main()
     {  
         printf("%d  ", arr[i]);  
     } 
-    printf("\n");	
+    printf("\n");
+    printf("\n");
 }
