@@ -1,3 +1,4 @@
+
 #include <stdio.h>  
   
 void  main()  
@@ -22,3 +23,4 @@ void  main()
     printf("\n");
     printf("\n");
 }
+
